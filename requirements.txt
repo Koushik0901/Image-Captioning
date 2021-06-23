@@ -1,0 +1,10 @@
+torch
+torchvision
+streamlit
+pillow
+pandas
+spacy
+tqdm
+tabulate
+click==7.1.1
+gdown
