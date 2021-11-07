@@ -5,6 +5,7 @@ from PIL import Image
 import json
 from neuralnet.model import SeqToSeq
 
+os.system('gdown --id {"1-G-7DpXQRGaiQwgVRnVW6mSz6afnib_k"} -O flickr30k.pt')
 
 def inference(img_path):
     transform = transforms.Compose(
