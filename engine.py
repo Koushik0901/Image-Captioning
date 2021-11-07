@@ -4,9 +4,9 @@ import torchvision.transforms as transforms
 from PIL import Image
 import json
 from neuralnet.model import SeqToSeq
+import wget
 
-os.system("apt install wget -y")
-os.system("wget https://github.com/Koushik0901/Image-Captioning/releases/download/v1.0/flickr30k.pt")
+filename = wget.download("wget https://github.com/Koushik0901/Image-Captioning/releases/download/v1.0/flickr30k.pt")
 
 def inference(img_path):
     transform = transforms.Compose(
