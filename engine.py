@@ -5,7 +5,8 @@ from PIL import Image
 import json
 from neuralnet.model import SeqToSeq
 
-os.system("wget --id {'1-G-7DpXQRGaiQwgVRnVW6mSz6afnib_k'}")
+os.system("apt install wget -y")
+os.system("wget https://github.com/Koushik0901/Image-Captioning/releases/download/v1.0/flickr30k.pt")
 
 def inference(img_path):
     transform = transforms.Compose(
