@@ -6,7 +6,8 @@ import json
 from neuralnet.model import SeqToSeq
 import wget
 
-filename = wget.download("wget https://github.com/Koushik0901/Image-Captioning/releases/download/v1.0/flickr30k.pt")
+url = "wget https://github.com/Koushik0901/Image-Captioning/releases/download/v1.0/flickr30k.pt"
+filename = wget.download(url)
 
 def inference(img_path):
     transform = transforms.Compose(
