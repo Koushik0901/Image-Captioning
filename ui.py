@@ -1,7 +1,6 @@
 import streamlit as st
 from engine import inference
-import os
-os.system('ls')
+
 def ui():
     st.markdown("# Image Captioning")
     st.markdown("***A sequence to sequence model to caption images built using PyTorch.\
