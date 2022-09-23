@@ -1,5 +1,5 @@
-torch==1.8.2
-torchvision==0.9.2
+https://download.pytorch.org/whl/lts/1.8/cpu/torch-1.8.2%2Bcpu-cp37-cp37m-linux_x86_64.whl
+https://download.pytorch.org/whl/lts/1.8/cpu/torchvision-0.9.2%2Bcpu-cp37-cp37m-linux_x86_64.whl
 streamlit
 pillow
 pandas
